@@ -22,15 +22,17 @@ const LocationAV: React.FC = () => {
                 Notre matériel est entretenu, performant, prêt à l'emploi. Nous accompagnons les créateurs comme les techniciens avec sérieux et souplesse.
               </p>
               
-              <a 
-                href="https://lightsraw.lokki.rent/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="group bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-400/25 flex items-center space-x-2 mx-auto"
-              >
-                <ExternalLink className="h-5 w-5" />
-                <span>Accéder à notre plateforme de location</span>
-              </a>
+              <div className="flex justify-center">
+                <a 
+                  href="https://lightsraw.lokki.rent/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="group bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-300 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-400/25 flex items-center space-x-2 mx-auto"
+                >
+                  <ExternalLink className="h-5 w-5" />
+                  <span>Accéder à notre plateforme de location</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
